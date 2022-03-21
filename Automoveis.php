@@ -15,10 +15,10 @@ Class Automoveis
 	{
 		// ----------------------- MYSQL --------------------
 		// conexão com a base de dados MySql 
-		$host = "localhost";
-		$usuario = "??????";
-		$senha = "????????";
-		$bd = "??????";
+		$host = "sql10.freesqldatabase.com";
+		$usuario = "8UMyvqgh42";
+		$senha = "sql10480617";
+		$bd = "sql10480617";
 		$this->con = mysqli_connect($host, $usuario, $senha, $bd);
 		return $this->con;
 	}
